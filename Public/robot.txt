@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://malakcreations.co.za/sitemap.xml
