@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-sand-50: #FAF7F5;
+  --color-sand-100: #F4EFEB;
+  --color-sand-200: #E8DDD6;
+  --color-sand-300: #D8C7BC;
+  --color-blush-100: #F9EBE6;
+  --color-blush-200: #F2D8CF;
+  --color-blush-300: #E6BFAF;
+  --color-rose-accent: #C28475;
+  --color-rose-deep: #9F5F51;
+  --color-espresso: #261D1D;
+  --color-charcoal: #1B1515;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #FAF7F5;
+  color: #261D1D;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Subtle image overlay gradient */
+.scrim-bottom {
+  background: linear-gradient(180deg, rgba(27, 21, 21, 0) 30%, rgba(27, 21, 21, 0.75) 100%);
+}
